@@ -1,0 +1,53 @@
+/****************************************************************************
+ *
+ * state_styles.css
+ *
+ * WARNING! Do not edit this CSS file.  It is created automatically from the
+ *          individual .css files in our state directories.  Any changes you
+ *          make to this file will be overwritten.
+ *
+ * To recompile this file, run the bin/compile_css.py script
+ *
+ ***************************************************************************/
+
+/* contacts.css */
+
+.contacts-state div.contact {
+}
+
+.contacts-state div.global_id {
+    font-weight: bold;
+}
+
+.contacts-state div.pending {
+    font-weight: bold;
+    font-style: italic;
+    color: grey;
+    text-align: right;
+}
+
+/* enterGlobalID.css */
+
+.enterGlobalID-state .centre {
+    text-align: center;
+}
+
+/* map.css */
+
+.map-state div#map {
+    width: 100%;
+    height: 100%;
+}
+
+.map-state div#message {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 250px;
+    font-weight: bold;
+    font-size: 18pt;
+    color: #2020a0;
+}
+
+/* tabs.css */
+

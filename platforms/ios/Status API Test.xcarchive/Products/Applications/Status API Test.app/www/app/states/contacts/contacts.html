@@ -1,0 +1,37 @@
+<ion-view class="contacts-state">
+  <ion-header-bar class="bar-positive">
+    <div class="buttons">
+      <button class="button button-clear"
+              ng-if="ContactList.get().length > 0"
+              ng-click="options.editing = !options.editing">
+        <span ng-if="!options.editing">Edit</span>
+        <span ng-if="options.editing">Done</span>
+      </button>
+    </div>
+    <h1 class="title">Contact List</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="addContact()">
+        <i class="ion-ios-plus-outline"></i>
+      </button>
+    </div>
+  </ion-header-bar>
+
+  <ion-content class="has-header has-footer">
+    <ion-list show-delete="options.editing">
+      <ion-item ng-repeat="contact in ContactList.get()">
+        <ion-delete-button class="ion-minus-circled"
+                           ng-click="removeContact('{{ contact.global_id }}')">
+        </ion-delete-button>
+        <div class="row contact">
+          <div class="col col-50 global_id">
+            {{ contact.global_id }}
+          </div>
+          <div ng-if="contact.pending" class="col col-50 pending">
+            pending
+          </div>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+

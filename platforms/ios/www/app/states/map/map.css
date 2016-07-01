@@ -1,0 +1,18 @@
+/* This file defines the various CSS styles used by the "map" state.
+ */
+
+div#map {
+    width: 100%;
+    height: 100%;
+}
+
+div#message {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 250px;
+    font-weight: bold;
+    font-size: 18pt;
+    color: #2020a0;
+}
+

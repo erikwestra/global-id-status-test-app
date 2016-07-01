@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/Status API Test.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>nz.westra.statusapitestapp</string>
+		<key>CFBundleShortVersionString</key>
+		<string>0.0.1</string>
+		<key>CFBundleVersion</key>
+		<string>0.0.1</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Erik Westra (R3XMT2S5H6)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2016-07-01T05:14:46Z</date>
+	<key>DefaultToolchainInfo</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Xcode 7.3.1 Default</string>
+		<key>Identifier</key>
+		<string>com.apple.dt.toolchain.XcodeDefault</string>
+	</dict>
+	<key>Name</key>
+	<string>Status API Test</string>
+	<key>SchemeName</key>
+	<string>Status API Test</string>
+</dict>
+</plist>

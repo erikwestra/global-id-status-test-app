@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="assets/css/global_styles.css" rel="stylesheet">
+    <link href="assets/css/state_styles.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+
+    <script src="lib/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- Other JS libraries -->
+
+    <script src="lib/md5.js"></script>
+    <script src="lib/sha1.js"></script>
+    <script src="lib/uuid.js"></script>
+    <script src="lib/moment.min.js"></script>
+    <script src="lib/hashmap.js"></script>
+
+    <!-- Our main application module -->
+
+    <script src="app/app.js"></script>
+
+    <!-- Our library modules -->
+
+    <script src="app/lib/config.js"></script>
+    <script src="app/lib/storage.js"></script>
+    <script src="app/lib/utils.js"></script>
+    <!-- <script src="app/lib/uiRouterDebugger.js"></script> -->
+    <script src="app/lib/greatCircle.js"></script>
+    <script src="app/lib/mapLabel.js"></script>
+
+    <!-- Our various services -->
+
+    <script src="app/services/statusAPI.js"></script>
+    <script src="app/services/contactList.js"></script>
+    <script src="app/services/polling.js"></script>
+    <script src="app/services/locationHistory.js"></script>
+    <script src="app/services/messageHandler.js"></script>
+    <script src="app/services/connectivityMonitor.js"></script>
+    <script src="app/services/googleMaps.js"></script>
+    <script src="app/services/globalIDView.js"></script>
+    <script src="app/services/geolocation.js"></script>
+
+    <!-- Our various states -->
+
+    <script src="app/states/enterGlobalID/enterGlobalID.js"></script>
+    <script src="app/states/tabs/tabs.js"></script>
+    <script src="app/states/contacts/contacts.js"></script>
+    <script src="app/states/map/map.js"></script>
+  </head>
+  <body>
+    <ion-nav-view animation="slide-left-right">
+      <!-- The current state's template will go here. -->
+    </ion-nav-view>
+  </body>
+</html>

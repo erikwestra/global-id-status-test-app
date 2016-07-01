@@ -1,0 +1,18 @@
+/* This file defines the various CSS styles used by the "contacts" state.
+ */
+
+div.contact {
+}
+
+div.global_id {
+    font-weight: bold;
+}
+
+div.pending {
+    font-weight: bold;
+    font-style: italic;
+    color: grey;
+    text-align: right;
+}
+
+

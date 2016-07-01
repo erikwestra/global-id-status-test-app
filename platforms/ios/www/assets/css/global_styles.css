@@ -1,0 +1,19 @@
+/* app/assets/css/global_styles.css
+ *
+ * This file defines global CSS styles for the MessageMe system.
+ */
+
+ion-nav-view {
+ background-color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-border {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
